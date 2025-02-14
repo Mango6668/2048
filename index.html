@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!-- 无聊用前端写的，大神勿喷 -->
+<meta charset="UTF-8">
+<title>赤米的2048</title>
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<meta charset="UTF-8">
+<!-- 定义浏览器标签图标 -->
+<link rel="icon" href="images/icon.png" type="images/icon.png" />
+<!-- 引入外部css -->
+<link rel="stylesheet" type="text/css" href="css/index.css" />
+<!-- 引入外部js -->
+<script type="text/javascript" src="js/game.js"></script>
+<script type="text/javascript" src="js/animation.js"></script>
+</head>
+<body>
+	<!-- 背景音乐 -->
+	<audio src="backround/backround.mp3" autoplay="autoplay" loop="loop"></audio>
+	<header>
+		<h1 class="text">赤米的2048</h1>
+	</header>
+	<div id="gamePanel">
+		<p>
+			<a class="button" id="newGame">新游戏</a> 得分: <span id="score">0</span>
+		</p>
+		<div id="gridPanel">
+			<div class="grid"></div>
+			<div class="grid"></div>
+			<div class="grid"></div>
+			<div class="grid"></div>
+
+			<div class="grid"></div>
+			<div class="grid"></div>
+			<div class="grid"></div>
+			<div class="grid"></div>
+
+			<div class="grid"></div>
+			<div class="grid"></div>
+			<div class="grid"></div>
+			<div class="grid"></div>
+
+			<div class="grid"></div>
+			<div class="grid"></div>
+			<div class="grid"></div>
+			<div class="grid"></div>
+
+
+
+			<div class="cell " id="cell00"></div>
+			<div class="cell " id="cell01"></div>
+			<div class="cell " id="cell02"></div>
+			<div class="cell " id="cell03"></div>
+
+			<div class="cell " id="cell10"></div>
+			<div class="cell " id="cell11"></div>
+			<div class="cell " id="cell12"></div>
+			<div class="cell " id="cell13"></div>
+
+			<div class="cell " id="cell20"></div>
+			<div class="cell " id="cell21"></div>
+			<div class="cell " id="cell22"></div>
+			<div class="cell " id="cell23"></div>
+
+			<div class="cell " id="cell30"></div>
+			<div class="cell " id="cell31"></div>
+			<div class="cell " id="cell32"></div>
+			<div class="cell " id="cell33"></div>
+
+		</div>
+		<div id="gameOver">
+			<div>
+				<!--背景 -->
+			</div>
+			<p>
+				<!-- 前景 -->
+				游戏结束!<br> 得分: <span id="finalScore">0</span><br> <a
+					class="button" id="restart">再试一次</a>
+			</p>
+		</div>
+	</div>
+	<!-- 版权标识部分 -->
+	<div id="footer">
+		<p id="about">&copy;赤米 2025保留所有权利</p>
+		<br>
+		<p id="about1">&copy;chimi  All rights reserved</p>
+
+	</div>
+</body>
+</html>
